@@ -7,7 +7,7 @@ import {HeaderConfig} from 'ag-vdl/src/app/test/header/header-config';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Does this work?';
+  title = 'This is a title';
   config: HeaderConfig = {
     color: '#18a3fa',
     size: '60px',
