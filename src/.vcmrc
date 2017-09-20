@@ -1,0 +1,15 @@
+{
+  "types": "conventional-commit-types",
+  "scope": {
+    "required": true,
+    "allowed": ["*"],
+    "validate": true,
+    "multiple": false
+  },
+  "warnOnFail": false,
+  "maxSubjectLength": 100,
+  "subjectPattern": ".+",
+  "subjectPatternErrorMsg": "subject does not match subject pattern!",
+  "helpMessage": "",
+  "autoFix": true
+}

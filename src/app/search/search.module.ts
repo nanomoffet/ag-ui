@@ -1,17 +1,25 @@
 import { NgModule } from '@angular/core';
-import {SharedModule} from '../shared/shared.module';
-import {SearchRoutingModule} from './search-routing.module';
+import { SharedModule } from '../shared/shared.module';
+import { SearchRoutingModule } from './search-routing.module';
 import { SearchComponent } from './search.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 import { BrowseSearchComponent } from './browse-search/browse-search.component';
 import { ReadingLevelSearchComponent } from './reading-level-search/reading-level-search.component';
 import { KidsCatalogSearchComponent } from './kids-catalog-search/kids-catalog-search.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   imports: [
     SharedModule,
     SearchRoutingModule
   ],
-  declarations: [SearchComponent, AdvancedSearchComponent, BrowseSearchComponent, ReadingLevelSearchComponent, KidsCatalogSearchComponent]
+  declarations: [
+    SearchComponent,
+    AdvancedSearchComponent,
+    BrowseSearchComponent,
+    ReadingLevelSearchComponent,
+    KidsCatalogSearchComponent,
+    ResultsComponent ]
 })
-export class SearchModule { }
+export class SearchModule {
+}
